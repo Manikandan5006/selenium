@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!--ippo intha suite kulla sila test cases irukku, athavathu class kulla kuduthurukkan, ippo antha test cases la athavathu antha class la
+irukka methods(class kulla irukka test case nu sollvom) namma function ahh than method nu solluvom, antha class la irukk methods ellam paralell ahh
+orey samayathula run panna poran method level ahh, so nan paralel ndra tag attribute use anni pannlam, and thread count n innoru attribute irukku
+athu enna pannumna process run aaganumnu soldrathu, enakku inga rendu chrome process run aaganum, so athayum pottukuram  apdinna rendu browser la op[pen aaganum nu soldran  -->
+<suite name= "testsuite" verbose="2"  parallel= "methods" thread-count="2"> 
+<test name="paralleltest">
+<classes>
+
+<class name="testNG.ExecutingTestCaseInParalel"></class>
+
+
+</classes>
+</test>
+</suite>
+
+<!--  output  ennanana inga  bro browser la enakku 2 test casesum run aagum,athanalal tha thread count 2 nu pottan-->

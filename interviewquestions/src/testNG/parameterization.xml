@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parasuite">
+
+<!--program ku parameter anupurathuku testNG xml la paramater nu oru tag irukku  -->
+<test name="parameterstest">
+<!--inga namma parameter nu oru tag cirukku athuku oru name onnu tharanum and namma program ku tharanunu nenaikura value or input ahh
+inga tharanum, apram ,intha name ahh kondu poi program la @test la parameter nu annotation irukku athula intha name ahh mattum tharanum
+apdi thanthaa antha test case enna nenaikum na ok inga parameter annotation create pannirukkan athoda name ahh inga kuduthurukkan
+ so athoda valus inga vara pothunu nenaikum so atha vaagikum,, atha receive panna program la irukka test case la parameter 
+ receiver onnu potukuran, apdinna bracket la receive pandran  -->
+<parameter name = "the name of parameter" value=" viji from parameter in xml">
+</parameter>
+
+
+<classes>
+
+<class name = "testNG.ParameterInTestNG">
+</class>
+
+</classes>
+</test>
+</suite>
+
+
+<!-- this is viji from parameter in xml
+ -->

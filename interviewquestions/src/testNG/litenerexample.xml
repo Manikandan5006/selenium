@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- inga nan oru suite kulla oru listener tag openpannitu lister nu namma oru class open panni atha pass ana intha method ahh call pannu, fail aana itha call pannu
+apuuram sila condition ku apdinnu oru listener class open panniruppom, so atha namma listener class name ahh inga tharanum
+  -->
+<suite name="listener"> 
+ <!-- namma create panna listener oda name ahh package. antha listener class name ahh tharanum  -->
+<listener  class-name="testNG.ListenersinTenstNG"></listener>
+<test name="listertest">
+<classes>
+
+<!-- intha class ku than nan lister ahh kuduthurukkan  -->
+<class name="testNG.SampleTestCase" >
+
+</class>
+
+</classes>
+</test>
+</suite>
+

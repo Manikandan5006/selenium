@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- suite nu oru tag create panndran  -->
+<suite name= "testsuite" verbose="2" >
+
+<listener name = "interviewwuestions.SeleniumInterviewQuestionsReturnFailedTestCasePartThreeUsingAnnotationtransformerToAcheveIRetryAnalyser" ></listener>
+<test name="firsttest">
+
+<classes>
+
+<class name="interviewquestions.SeleniumInterviewQuestionsReturnFailedTestCase"></class>
+
+</classes>
+</test>
+</suite>
+
+<!-- 	ithoda xml file ahh run pandra test fail nu vanthuruchu
+			  java.lang.AssertionError: expected [false] but found [true] 
+			   
+			   
+	ippo itha naan rerun pannanum, inga 2 test case ndrathaala rerun panniralaam, but oru 100 test case la 40 test case faila aana
+	antha situation la namma rerun pandrathu kastam.
+	
+	 project ahh refersh pannitu 
+	 test-output folder ponanmna testNG.failed.xml nu  oru file irukkum
+			  -->

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- suite nu oru tag create panndran  -->
+<suite name= "testsuite" verbose="2" > <!-- inga suite ku oru name set pannikanum, enna name vena, ithula verbose nu or attributes set pandran apdinna 
+                        ennana namma output file ala log level epdi irukkanunu sollum, athavathu that means ecaach class and methods run panna eduthuta time ahh details ahh ve kaatum -->
+                 <!--athukulla test cases write panna porathaala test nu oru tag create pannikuran  -->
+<test name="firsttest">
+<!-- intha test cases lam ethula write pannirukkanan class la (oru class la multiple methods(testcases eluthalam) or claas ahhye
+test case ahh eluthulam, normal ahh test cases ahh indutry la class la than eluthuvanga)  so inga nan testNg ndra package la irukka oru 4 classes
+ahh tha test case ahh poda poran yenna nan antha 4 classes than run panna poran, so athanala na classes ndra tage create pannitan  -->
+<classes>
+<!-- ippo antha classes kulla namma test pannanunu nenanaikura individual class ellathayum eluthanum so nan class ndra tag create pannikuran
+   so ippo intha class kulla package name.class name ipdithan class name ahh mention pannanum -->
+<class name="testNG.DependenciesHandling"></class>
+<class name="testNG.DriveACar"></class>
+<class name="testNG.SkipTestCaseorIgnoreTestCase"></class>
+<class name="testNG.WritingTestSuitInTestNg"></class>
+</classes>
+</test>
+</suite>
+                             <!--  ippo namakku ella class um (test cass) run aagirukkum, athoda output keele irukku
+                             
+ tenth
+12th
+degree
+start the car
+ this is first gear 
+second gear 
+this is tird gear
+fourth gear
+start the car
+ this is first gear 
+second gear 
+this is tird gear
+fourth gear
+
+===============================================
+testsuite
+Total tests run: 16, Passes: 15, Failures: 1, Skips: 0
+Configuration Failures: 1, Skips: 0
+===============================================
+                             
+                         -->
+
+<!-- inga xml file namakku automatichaa namaku report create panni tharum, projecr foldert refresgh panna athu testout put
+ndra folder varum, nanna testers ellam end of the day intha report ahh tha client ku send pannanum, index.htl ahh open with browser nu pottu paaru varum
+ -->                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+<suite name="Grouping Suites" verbose="2">
+<test name="Grouping test">
+inga test kulla groups nu oru tag irukku, apdinna intha testcase kulla irukuratha group group ahh run panna poram, so run use pannikuran  
+so ennoda class kulla irukkra test cases ahh group group ahh run pannika poran, athu ennthentha group na , vivo and moto
+ndra test cases ahh group pannikuran, so nan entha test cases ahh group pannannumo atha run kulla include nu pottukanu, ethe ethellam venamo athellam nan exclude nu pottukanum
+yenna nan testNG.GroupingTestcasess ndra pakage la irukka GroupingTestcasess ndra class fulla than nan inga kuduthurukkan
+and enakku athula sila sila test cases ahh mattum group pannim eduthu atha include ahh pottu meethi ellathayum exclude la pottu run pandran,
+inga apple layum leno vaavayum exlude la potta meethi irukka  vivo and moto yum run aagum , 
+illa nan intha vivo and moto va include la potta athu maatum run aagum methi irukka apple and lenova exclude la podama irunthaalum anthu exclude than so podanundra need illa 
+rendula ethavathu oru optionahh use pannikalam , inga naan include ye use pannikuran, 
+ippo nan motto and vivo group names include pannathaala  meethi ella groups um automatic ahh exclude la poirum 
+<groups>
+<run >
+<include name ="mottogroup"></include>
+<include name ="vivogroup"></include>
+<exclude name=""></exclude>
+
+</run>
+
+</groups>
+<classes>
+<class name = "testNG.GroupingTestcasess"></class>
+</classes>
+</test>
+</suite>
+
+
+
+ OUTPUT   SO enakku motto and vivo ndra groups la irukka 4 test cases mattum run aagirukku    ...
+
+motto1
+motto2
+vivo1
+vivo2
+PASSED: motto1
+PASSED: motto2
+PASSED: vivo1
+PASSED: vivo2
+
+===============================================
+    Grouping test
+    Tests run: 4, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Grouping Suites
+Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
+===============================================
+
+                                       - trying this code again below -->
+                                       
+ <suite name="ithan suite name">
+ <test name="ithan test name">
+ <groups>
+ <run>
+ <exclude name="applegroup"></exclude>  <!-- mel irukka code la inclde pannan , ingha exclude panni paakuran  -->
+ <exclude name="lenovagroup"></exclude>
+ </run>
+ </groups>
+ <classes>
+ <class name="testNG.GroupingTestcasess">
+ </class>
+ </classes>
+ </test>
+ </suite>                                                                          
+                                       
+   <!-- output
+ motto1
+motto2
+vivo1
+vivo2
+   
+     -->                                    
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+
