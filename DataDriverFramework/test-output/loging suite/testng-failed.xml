@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [loging suite]">
+  <test thread-count="5" parallel="tests" name="WrongUsernameWrongPassword(failed)">
+    <parameter name="password" value="ddfdd1"/>
+    <parameter name="username" value="swe23s"/>
+    <classes>
+      <class name="datadriventutotials.WrongUsernameWrongPassword">
+        <methods>
+          <include name="wrongusernameandCorrectPassword" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- datadriventutotials.WrongUsernameWrongPassword -->
+    </classes>
+  </test> <!-- WrongUsernameWrongPassword(failed) -->
+  <test thread-count="5" parallel="tests" name="WrongusernameCorrectPassword(failed)">
+    <parameter name="password" value="admin123"/>
+    <parameter name="username" value="padminnn"/>
+    <classes>
+      <class name="datadriventutotials.WrongusernameCorrectPassword">
+        <methods>
+          <include name="wrongusernameandCorrectPassword" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- datadriventutotials.WrongusernameCorrectPassword -->
+    </classes>
+  </test> <!-- WrongusernameCorrectPassword(failed) -->
+  <test thread-count="5" parallel="tests" name="CorrectUsernameWrongPassword(failed)">
+    <parameter name="password" value="pnshgd"/>
+    <parameter name="username" value="Admin"/>
+    <classes>
+      <class name="datadriventutotials.CorrectUsernameWrongPassword">
+        <methods>
+          <include name="correctUsernameandWrongPassword" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- datadriventutotials.CorrectUsernameWrongPassword -->
+    </classes>
+  </test> <!-- CorrectUsernameWrongPassword(failed) -->
+  <test thread-count="5" parallel="tests" name="CorrectUsernameCorrectPassword(failed)">
+    <parameter name="password" value="admin123"/>
+    <parameter name="username" value="Admin"/>
+    <classes>
+      <class name="datadriventutotials.CorrectUsernameCorrectPassword">
+        <methods>
+          <include name="correctUsernameandCorrectPassword" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- datadriventutotials.CorrectUsernameCorrectPassword -->
+    </classes>
+  </test> <!-- CorrectUsernameCorrectPassword(failed) -->
+</suite> <!-- Failed suite [loging suite] -->

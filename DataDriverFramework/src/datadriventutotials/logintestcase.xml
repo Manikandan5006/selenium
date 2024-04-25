@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="logingsuits" >
+
+
+<!--1st class or 1st test case  -->
+<test name="Logintestcases">
+<classes>
+<class name="datadriventutotials.loginhandsonExcercise"></class>
+</classes>
+</test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--2nd class or 2nd test case  
+<test name="CorrectUsernameWrongPassword">
+<parameter name="username" value="Admin"></parameter>
+ <parameter name="password" value="pnshgd"></parameter>
+<classes>
+<class name= "datadriventutotials.CorrectUsernameWrongPassword"></class>
+</classes>
+</test>
+
+3rd class or 3rd test case  
+<test name="WrongusernameCorrectPassword">
+<parameter name="username" value="padminnn"></parameter>
+ <parameter name="password" value="admin123"></parameter>
+<classes>
+<class name= "datadriventutotials.WrongusernameCorrectPassword"></class>
+</classes>
+</test>
+
+4th class or 4th test case  
+<test name="WrongUsernameWrongPassword">
+<parameter name="username" value="swe23s"></parameter>
+<parameter name="password" value="ddfdd1"></parameter>
+<classes>
+<class name= "datadriventutotials.WrongUsernameWrongPassword"></class>
+</classes>
+</test> -->
+
+
